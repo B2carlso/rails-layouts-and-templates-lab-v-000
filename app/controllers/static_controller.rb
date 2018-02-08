@@ -1,3 +1,4 @@
 class StaticController < ApplicationController
-  get 'home', to: 'static#home'
+  def home
+  end
 end
